@@ -1,0 +1,12 @@
+#
+
+*~
+*.swp
+
+.bundle
+.gitignore
+app/okura-dic
+Gemfile.lock
+vendor
+
+# EOF
