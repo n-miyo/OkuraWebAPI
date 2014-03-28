@@ -6,6 +6,7 @@
 .bundle
 .gitignore
 app/okura-dic
+coverage
 vendor
 
 # EOF

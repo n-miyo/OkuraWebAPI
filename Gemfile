@@ -7,4 +7,10 @@ gem 'rake'
 gem 'grape'
 gem 'okura', github: 'todesking/okura'
 
+group :test do
+  gem 'rspec'
+  gem 'rack-test', require: 'rack/test'
+  gem 'coveralls', require: false
+end
+
 # EOF

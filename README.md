@@ -26,7 +26,7 @@ Okuraを用いた形態素解析WebAPI
 します。
 
 ```
-% bundle exec rake
+% bundle exec rake prepare_dict
 ```
 
 * 3: 任意の rack コンテナでアプリを起動します。
