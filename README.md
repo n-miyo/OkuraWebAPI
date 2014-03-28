@@ -1,4 +1,4 @@
-Okuraを用いた形態素解析WebAPI
+OkuraWebAPI [![Build Status](https://travis-ci.org/n-miyo/OkuraWebAPI.svg?branch=master)](https://travis-ci.org/n-miyo/OkuraWebAPI) [![Coverage Status](https://coveralls.io/repos/n-miyo/OkuraWebAPI/badge.png?branch=master)](https://coveralls.io/r/n-miyo/OkuraWebAPI?branch=master)
 ====================
 
 
