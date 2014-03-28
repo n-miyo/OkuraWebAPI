@@ -19,13 +19,12 @@ module OkuraWeb
 
     resource :morph do
       post do
-        return [] unless params[:text]
+        s = params[:text]
+        return [] unless s
         nodes = tagger.parse params[:text]
-        a = []
         nodes.mincost_path.map do |node|
           word = node.word
-          {:surface => "#{word.surface}",
-           :text => "#{word.left.text.split /,/}"}
+          {surface: "#{word.surface}", text: "#{word.left.text.split /,/}"}
         end
       end
     end
