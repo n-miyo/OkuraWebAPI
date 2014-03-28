@@ -21,7 +21,7 @@ module OkuraWeb
       post do
         s = params[:text]
         return [] unless s
-        nodes = tagger.parse params[:text]
+        nodes = tagger.parse s
         nodes.mincost_path.map do |node|
           word = node.word
           {surface: "#{word.surface}", text: "#{word.left.text.split /,/}"}
@@ -31,8 +31,9 @@ module OkuraWeb
 
     resource :wakati do
       post do
-        return [] unless params[:text]
-        tagger.wakati params[:text]
+        s = params[:text]
+        return [] unless s
+        tagger.wakati s
       end
     end
   end
