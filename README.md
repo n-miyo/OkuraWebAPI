@@ -83,4 +83,7 @@ COPYRIGHT
 
 * mecab-naist-jdic-0.6.3b-20111013.tar.gz ならびに okura は
   それぞれのライセンスをご確認下さい。
-* 本レポジトリ内コードのライセンスは LICENSE を御覧ください。
+* 本レポジトリ内コードは MIT License です。詳細は
+  [LICENSE](https://raw.githubusercontent.com/n-miyo/OkuraWebAPI/master/LICENSE)
+  を御覧ください。
+
